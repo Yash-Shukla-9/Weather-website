@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="Style.css" />
+    <script src="Script.js" defer></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="card">
+        <div class="input">
+          <input
+            type="text"
+            placeholder="Enter Your City "
+            spellcheck="false"
+            class="inpt"
+          />
+          <button class="btn">Search</button>
+        </div>
+
+        <div class="error">Invaild City name</div>
+
+        <div class="weath">
+          <div class="img-cloud">
+            <img src="./images/clouds.png" class="Weather" alt="" />
+          </div>
+
+          <div class="card2">
+            <span class="Temp">20℃</span>
+            <h2 class="heading city">Indore</h2>
+          </div>
+
+          <div class="detail">
+            <div class="col1">
+              <div class="humidity gap">
+                <img src="./images/humidity.png" alt="" />
+              </div>
+              <div>
+                <p class="para humi">50%</p>
+                <p class="para-head">Humidiy</p>
+              </div>
+            </div>
+
+            <div class="col1">
+              <div class="Wind gap">
+                <img src="./images/wind.png" alt="" />
+              </div>
+              <div>
+                <p class="para windi">70 km/h</p>
+                <p class="para-head">Wind Speed</p>
+              </div>
+            </div>
+          </div>
+          <div class="col2">
+            <div class="eye gap">
+              <img src="./images/low-visibility.png" alt="" />
+            </div>
+            <div>
+              <p class="para visi">00 miles</p>
+              <p class="para-head">Visibility</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

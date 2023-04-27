@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Poltawski+Nowy&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Poltawski Nowy", serif;
+}
+
+body {
+  background: linear-gradient(to right, #000000, #000000, #000000);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.card {
+  width: 350px;
+  height: auto;
+  padding: 10px 0 50px 0;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background: linear-gradient(to right, #00f260, #0575e6);
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: ; */
+}
+
+.img-cloud {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.input {
+  margin: 15px 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  padding: 12px 30px;
+  border: 0.5px solid black;
+  outline: none;
+  border-radius: 50px;
+  /* flex: 1; */
+}
+
+.btn {
+  padding: 8px 18px;
+  background: linear-gradient(to right, #ee0979, #ff6a00);
+  border-radius: 50px;
+  border: 1px solid black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:hover {
+  background: linear-gradient(to l);
+}
+
+.card2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card img {
+  width: 130px;
+}
+
+.heading {
+  color: white;
+  font-style: italic;
+}
+
+.Temp {
+  font-size: 4rem;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+
+  color: white;
+}
+
+.error {
+  text-align: center;
+  color: red;
+  display: none;
+}
+
+.weath {
+  display: none;
+}
+
+.col1 {
+  display: flex;
+  align-items: center;
+}
+
+.col2 {
+  display: flex;
+  align-items: center;
+  margin-top: 2.5rem;
+  justify-content: center;
+  color: white;
+}
+
+.eye img {
+  width: 50px;
+}
+
+.gap {
+  margin: 0 10px;
+}
+
+.humidity img {
+  width: 40px;
+}
+
+.para {
+  text-align: center;
+}
+
+.Wind img {
+  width: 40px;
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    width: 300px;
+  }
+
+  .input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .input input {
+    padding: 8px 20px;
+  }
+
+  .img-cloud img {
+    width: 90px;
+  }
+
+  .Temp {
+    font-size: 2.5rem;
+  }
+
+  .heading {
+    font-size: 1.2rem;
+  }
+
+  .detail {
+    flex-direction: column;
+    gap: 2.2rem;
+    align-items: center;
+    justify-content: center;
+  }
+}
